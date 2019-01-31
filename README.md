@@ -18,7 +18,7 @@ Update your Android Studio in 3.3 and above
 ## Step 3
   Create navigation graph under navigation resource type
 
- ![](media/navigationresource.png)
+ ![](media/four.png)
 
 ## Step 4
 Put a fragment inside your MainActivity and add these lines in your fragment for set home
