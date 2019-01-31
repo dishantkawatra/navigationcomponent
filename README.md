@@ -22,6 +22,11 @@ Update your Android Studio in 3.3 and above
 ## Step 4
 Put a fragment inside your MainActivity and add these lines in your fragment for set home
 
+
+        > app:defaultNavHost="true"
+        > app:navGraph="@navigation/navigation_graph"
+        > android:name="androidx.navigation.fragment.NavHostFragment"
+
  ![](media/Second.png)
 
 ### Note
