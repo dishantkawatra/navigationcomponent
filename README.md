@@ -18,6 +18,7 @@ Step 2 - Implement gradle files
  
 Note: The Navigation components are designed for apps that have one main activity with multiple Fragment destinations. The main activity hosts the navigation graph and is responsible for swapping destinations as needed. In an app with multiple activity destinations, each additional activity hosts its own navigation graph. For more information, see Modifying an activity to host navigation.
 
+
     
     
     
