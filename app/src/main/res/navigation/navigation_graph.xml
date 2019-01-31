@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.navigationcomponentdemo.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/toAccount"
+            app:destination="@id/accountFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/toClass"
+            app:destination="@id/classFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.navigationcomponentdemo.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/toGetDataFragment"
+            app:destination="@id/getDataFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/classFragment"
+        android:name="com.example.navigationcomponentdemo.ClassFragment"
+        android:label="fragment_class"
+        tools:layout="@layout/fragment_class" />
+    <fragment
+        android:id="@+id/getDataFragment"
+        android:name="com.example.navigationcomponentdemo.GetDataFragment"
+        android:label="fragment_get_data"
+        tools:layout="@layout/fragment_get_data" >
+
+
+        <argument
+            android:name="Data"
+            app:argType="string"
+            android:defaultValue=" " />
+    </fragment>
+</navigation>
