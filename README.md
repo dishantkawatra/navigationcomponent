@@ -1,4 +1,5 @@
 # navigationcomponent
+![](media/four.png)
 The Android Navigation Components library is part of the Android JetPack set of libraries announced and released during Google I/O 2018.
 
 There are some steps to achieve this NavigationComponent in Android 
@@ -33,6 +34,8 @@ Put a fragment inside your MainActivity and add these lines in your fragment for
 
 You can add destination and move your cursor from one fragment to another fragment to attach
 ![](media/Three.png)
+
+
 
 
 ### Note
